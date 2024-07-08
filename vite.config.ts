@@ -1,11 +1,11 @@
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-import viteBuildInfo from "./viteBuildInfo"
+// import viteBuildInfo from "./viteBuildInfo"
 import { resolve } from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [vue(),viteBuildInfo()],
+  plugins: [vue()],
 
   resolve: {
     // 设置文件./src路径为 @
